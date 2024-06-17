@@ -1,22 +1,31 @@
-here’s a Python script using argparse to accept a message from the console and output it:
+## Python script
 
-Python
+### Run
 
-import argparse
+1. Example
+``` sh
+$ python script.py -h
+usage: script.py [-h] message
+Process some strings.
+positional arguments:
+  message     The message to display
+optional arguments:
+  -h, --help  show this help message and exit
+```
 
-# Create the parser
-parser = argparse.ArgumentParser(description='Process some strings.')
+2. Example:
+```sh
+$ python script.py 
+usage: script.py [-h] message
+script.py: error: the following arguments are required: message
+```
 
-# Add the arguments
-parser.add_argument('message', type=str, help='The message to display')
+3. Example
 
-# Execute the parse_args() method
-args = parser.parse_args()
+```sh
+$ python script.py "Hello, World !!!"
+python script.py "Hello, World python script.py !"
+Hello, World python script.py !
+val@ubuntu:~/sda4/py_simple_apps/argparse_script$ 
+```
 
-print(args.message)
-AI-generated code. Review and use carefully. More info on FAQ.
-To run this script, save it to a file and use the command line to pass “Hello, World” as an argument like so:
-
-python script.py "Hello, World"
-
-This will output “Hello, World” to the console.
