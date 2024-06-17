@@ -25,3 +25,6 @@ git push -u origin main
 
 ### Git
 11 git commands
+
+### Linear Regression
+Dataset example by using Pandas library
