@@ -8,38 +8,37 @@ Chat:
 
 Here are 10 important Git commands with their descriptions and usage examples:
 
-git init: Initializes a new Git repository.
+• git init: Initializes a new Git repository.
 Example: git init
 
-git clone: Creates a copy of an existing repository.
+• git clone: Creates a copy of an existing repository.
 Example: git clone https://github.com/user/repo.git
 
-git add: Adds files to the staging area before committing.
+• git add: Adds files to the staging area before committing.
 Example: git add .
 
-git commit: Records changes made to the repository.
+• git commit: Records changes made to the repository.
 Example: git commit -m "Initial commit"
 
-git status: Shows the status of changes as untracked, modified, or staged.
+• git status: Shows the status of changes as untracked, modified, or staged.
 Example: git status
 
-git push: Updates remote refs along with associated objects.
+• git push: Updates remote refs along with associated objects.
 Example: git push origin main
 
-git pull: Fetches from and integrates with another repository or a local branch.
+• git pull: Fetches from and integrates with another repository or a local branch.
 Example: git pull origin main
 
-git branch: Lists, creates, or deletes branches.
+• git branch: Lists, creates, or deletes branches.
 Example: git branch -a
 
-git checkout: Switches branches or restores working tree files.
+• git checkout: Switches branches or restores working tree files.
 Example: git checkout main
 
-git merge: Joins two or more development histories together.
+• git merge: Joins two or more development histories together.
 Example: git merge feature-branch
 
-
-git config: Sets configuration options for your Git installation.
+• git config: Sets configuration options for your Git installation.
 Example: git config --global user.name "Your Name"
 
 
