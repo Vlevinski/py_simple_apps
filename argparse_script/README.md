@@ -39,3 +39,11 @@ python test_script.py
 ```
 
 This will execute the unit tests and output the results.
+```
+..
+----------------------------------------------------------------------
+Ran 2 tests in 0.001s
+
+OK
+
+```
