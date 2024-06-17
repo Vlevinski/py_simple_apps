@@ -2,6 +2,7 @@ import unittest
 from unittest.mock import patch
 from io import StringIO
 import sys
+import argparse
 
 # Assuming the process_message function is in a file named 
 from script import process_message
